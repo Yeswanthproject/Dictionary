@@ -1,0 +1,17 @@
+{
+  "name": "DICTIONARY EXTENSION",
+  "description": "This extension shows the meaning of the words when we click on the extension.",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48" : "dictionary-removebg-preview.png"
+},
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "manifest_version": 2
+}

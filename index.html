@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body class="container">
+    <form class="form-data" autocomplete="on">
+      <h2 style="margin-top: 10px;">Find any word exist in the world :)</h2>
+        <div class="form__wrap">
+            <div class="input__wrap">
+        <input type="text" placeholder="Enter a word" class="word-name" />
+      <button class="search-btn">Search</button>
+    </div>
+  </div>
+    </form>
+    <div class="result">
+      <div class="loading">Searching...</div>
+      <div class="errors"></div>
+      <div class="data"></div>
+      <div class="result-container">
+        <h1 style="margin-top:10px; margin-bottom: 10px;" id="word" class="word"></h1>
+        <p style="margin-top:10px; margin-bottom: 10px;" class="phonetics"></p>
+        <audio style="margin-top:10px; margin-bottom: 10px;" class="audio" controls></audio>
+        <p style="margin-top:10px; margin-bottom: 10px; font-size: 20px; font-weight: bold; align-items: center;" class="meaningheading">Meaning</p>
+        <h3 style="margin-top:10px; margin-bottom: 10px; font-size: 18px; color: #503088;" class="word-definition"></h3>
+        <p style=" margin-top:10px; margin-bottom: 10px; font-size: 20px; font-weight: bold;" class="meaningheading">Synonyms</p>
+        <div class="synonyms"></div>
+      </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
